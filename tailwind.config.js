@@ -8,8 +8,12 @@ export default {
     extend: {
       backgroundImage: {
         'hero': "url('../src/assets/Background.png')",
-        
+      },
+      fontFamily:{
+        'primary' : ["Montserrat", "sans-serif"],
+        'secondary' : ["Roboto", "sans-serif"]
       }
+
     },
   },
   plugins: [],
