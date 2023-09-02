@@ -10,12 +10,12 @@ const Projects = () => {
 
       <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 py-8'>
 
-        <ProjectCard title={'Retail'} src={`../src/assets/Rectangle 14.png`}/>
-        <ProjectCard title={'Hospitality'} src={`../src/assets/Rectangle 15.png`}/>
-        <ProjectCard title={'Automotive'} src={`../src/assets/Rectangle 16.png`}/>
-        <ProjectCard title={'Architectural'} src={`../src/assets/Rectangle 17.png`}/>
-        <ProjectCard title={'Healthcare'} src={`../src/assets/Rectangle 18.png`}/>
-        <ProjectCard title={'Restaurant'} src={`../src/assets/Rectangle 19.png`}/>
+        <ProjectCard title={'Retail'} src={`/assets/Rectangle 14.png`}/>
+        <ProjectCard title={'Hospitality'} src={`/assets/Rectangle 15.png`}/>
+        <ProjectCard title={'Automotive'} src={`/assets/Rectangle 16.png`}/>
+        <ProjectCard title={'Architectural'} src={`/assets/Rectangle 17.png`}/>
+        <ProjectCard title={'Healthcare'} src={`/assets/Rectangle 18.png`}/>
+        <ProjectCard title={'Restaurant'} src={`/assets/Rectangle 19.png`}/>
 
       </section>
     </div>

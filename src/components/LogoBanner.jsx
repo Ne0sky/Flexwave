@@ -13,22 +13,22 @@ const LogoBanner = () => {
    
 >
     <Slider.Slide>
-        <img src="../src/assets/Logos/Bhawani.png" alt="any" className='w-36' />
+        <img src="/assets/Logos/Bhawani.png" alt="any" className='w-36' />
     </Slider.Slide>
     <Slider.Slide>
-        <img src="../src/assets/Logos/Emami.png" alt="any2" className='w' />
+        <img src="/assets/Logos/Emami.png" alt="any2" className='w' />
     </Slider.Slide>
     <Slider.Slide>
-        <img src="../src/assets/Logos/Essar.png" alt="any3" className='w-36' />
+        <img src="/assets/Logos/Essar.png" alt="any3" className='w-36' />
     </Slider.Slide>
     <Slider.Slide>
-        <img src="../src/assets/Logos/Ethnotel.png" alt="any3" className='w-36' />
+        <img src="/assets/Logos/Ethnotel.png" alt="any3" className='w-36' />
     </Slider.Slide>
     <Slider.Slide>
-        <img src="../src/assets/Logos/Margo.png" alt="any3" className='w-36' />
+        <img src="/assets/Logos/Margo.png" alt="any3" className='w-36' />
     </Slider.Slide>
     <Slider.Slide>
-        <img src="../src/assets/Logos/Sonalika.png" alt="any3" className='w-36' />
+        <img src="/assets/Logos/Sonalika.png" alt="any3" className='w-36' />
     </Slider.Slide>
     
 </Slider>

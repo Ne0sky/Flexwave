@@ -10,9 +10,9 @@ const Services = () => {
       <p className='bg-rose-600 w-36 h-1  mx-auto '></p>
 
       <section className="services flex flex-col md:flex-row justify-around items-center md:items-start py-16 w-screen overflow-x-hidden lg:w-3/4 mx-auto">
-        <ServiceCard title='Multi-Site Branding' desc='Ensure quality and consistency across national locations.' src={`../src/assets/multi-site.png`}/>
-        <ServiceCard title='Architectural Branding' desc='Providing you with high specification exterior and interior architectural signage solutions' src={`../src/assets/architectural.png`}/>
-        <ServiceCard title='Wayfinder Signage' desc='Design, manufacture and installation of wayfinding signage.' src={`../src/assets/directional.png`}/>
+        <ServiceCard title='Multi-Site Branding' desc='Ensure quality and consistency across national locations.' src={`/assets/multi-site.png`}/>
+        <ServiceCard title='Architectural Branding' desc='Providing you with high specification exterior and interior architectural signage solutions' src={`/assets/architectural.png`}/>
+        <ServiceCard title='Wayfinder Signage' desc='Design, manufacture and installation of wayfinding signage.' src={`/assets/directional.png`}/>
       </section>
     </div>
   )
