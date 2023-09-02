@@ -15,7 +15,7 @@ const About = () => {
           <p className='uppercase text-white md:text-xl pb-4'>We are Flexwave</p>
           <p className='text-xl md:text-2xl' >Signage and Fabrication Solutions 
               Delivered with Peace of Mind.</p>
-          <img className='py-8' src="../src/assets/map.png" alt="map image" />
+          <img className='py-8' src="/assets/map.png" alt="map image" />
           <p className='font-primary md:w-3/4 md:text-xl'>A map displaying the reach of our satisfied clients, over 7 districts over 3 states of West Bengal, Assam and Tripura.</p>
         </div>
         
