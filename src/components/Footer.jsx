@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
       
       <div className='flex flex-col justify-center items-start'>
-        <h3 className='font-bold text-2xl text-rose-600 flex items-center  gap-2 w-full '>VISIT<BiLink/></h3>
+        <h3 className='font-bold text-xl text-rose-600 flex items-center  gap-2 w-full '>VISIT<BiLink/></h3>
         
           <p className='flex items-center gap-2 py-2' ><BiLocationPlus color='#FF2741' size={20}/> 100/2 Bhagabati
           Park, Kolkata 700074</p>
