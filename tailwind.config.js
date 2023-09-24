@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero': "url('/assets/Background.png')",
+        'automotive': "url('/assets/Rectangle 16.png')",
       },
       fontFamily:{
         'primary' : ["Montserrat", "sans-serif"],

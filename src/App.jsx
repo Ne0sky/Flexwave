@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Portfolio from "./pages/Portfolio"
 import Products from "./pages/Products"
+import Portfolio_Automotive from "./pages/Portfolio_Automotive"
 
 
 
@@ -18,6 +19,8 @@ function App() {
             <Route index element={<Home/>} />
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/portfolio' element={<Portfolio/>}/>
+            <Route path='/portfolio/automotive' element={<Portfolio_Automotive/>}/>
+
             <Route path='/products' element={<Products/>}/>
 
             </Route>
