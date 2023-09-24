@@ -11,9 +11,9 @@ const Portfolio_Automotive = () => {
       <Banner_half/>
       <Navbar_portfolio/>
       <div className="h-[1px] w-3/4 rounded-xl mx-auto bg-zinc-900 hidden md:flex mb-5"></div>
-        <div className='w-full columns-1 md:columns-2 lg:columns-3 space-y-5 gap-5 p-5'>
+        <div className='w-full columns-1 md:columns-2 lg:columns-3 space-y-5 gap-5 p-5 '>
         {AutomotiveSrc.map((data, index)=>{
-            return <img onClick={()=>setFile(data)} key={index} className='rounded-xl w-full h-auto shadow-lg' src={data.path} alt="Porfolio_img" />
+            return <div className=' transition-all duration-300'> <img onClick={()=>setFile(data)} key={index} className='rounded-xl object-cover w-full cursor-pointer h-auto shadow-lg' src={data.path} alt="Porfolio_img" /></div>
         })}
         </div>
         <div className={'popup-media transition-all' } style={{display: file?'block':'none'}}>
