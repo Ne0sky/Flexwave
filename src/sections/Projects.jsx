@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
-
+import { Link, NavLink } from 'react-router-dom';
 const Projects = () => {
   return (
     <div className='py-8'>
@@ -12,7 +12,7 @@ const Projects = () => {
 
         <ProjectCard title={'Retail'} src={`/assets/Rectangle 14.png`}/>
         <ProjectCard title={'Hospitality'} src={`/assets/Rectangle 15.png`}/>
-        <ProjectCard title={'Automotive'} src={`/assets/Rectangle 16.png`}/>
+        <NavLink to='/portfolio/automotive'><ProjectCard title={'Automotive'} src={`/assets/Rectangle 16.png`}/></NavLink>
         <ProjectCard title={'Architectural'} src={`/assets/Rectangle 17.png`}/>
         <ProjectCard title={'Healthcare'} src={`/assets/Rectangle 18.png`}/>
         <ProjectCard title={'Restaurant'} src={`/assets/Rectangle 19.png`}/>
