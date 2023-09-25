@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { HiMenu } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 import MobileNav from './MobileNav';
 
@@ -7,7 +6,7 @@ import MobileNav from './MobileNav';
 let Links=[
   {name:'HOME', link:'/'},
   {name:'PRODUCTS', link:'/products'},
-  {name:'PORFOLIO', link:'/portfolio'},
+  {name:'PORFOLIO', link:'/portfolio/all'},
   {name:'CONTACT', link:'/contact'},
 ]
 
