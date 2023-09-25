@@ -10,12 +10,12 @@ const Projects = () => {
 
       <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 py-8'>
 
-        <NavLink to='/portfolio/all'><ProjectCard title={'All projects'} src={`/assets/Rectangle 14.png`}/></NavLink>
-        <NavLink to='/portfolio/hospitality'><ProjectCard title={'Hospitality'} src={`/assets/Rectangle 15.png`}/></NavLink>
-        <NavLink to='/portfolio/automotive'><ProjectCard title={'Automotive'} src={`/assets/Rectangle 16.png`}/></NavLink>
-        <NavLink to='/portfolio/architectural'><ProjectCard title={'Architectural'} src={`/assets/Rectangle 17.png`}/></NavLink>
-        <NavLink to='/portfolio/healthcare'><ProjectCard title={'Healthcare'} src={`/assets/Rectangle 18.png`}/></NavLink>
-        <NavLink to='/portfolio/retail'><ProjectCard title={'Retail'} src={`/assets/Rectangle 19.png`}/></NavLink>
+        <NavLink to='/portfolio/all'><ProjectCard title={'All projects'} src={`/assets/Rectangle-14.avif`}/></NavLink>
+        <NavLink to='/portfolio/hospitality'><ProjectCard title={'Hospitality'} src={`/assets/Rectangle-15.avif`}/></NavLink>
+        <NavLink to='/portfolio/automotive'><ProjectCard title={'Automotive'} src={`/assets/Rectangle-16.avif`}/></NavLink>
+        <NavLink to='/portfolio/architectural'><ProjectCard title={'Architectural'} src={`/assets/Rectangle-17.avif`}/></NavLink>
+        <NavLink to='/portfolio/healthcare'><ProjectCard title={'Healthcare'} src={`/assets/Rectangle-18.avif`}/></NavLink>
+        <NavLink to='/portfolio/retail'><ProjectCard title={'Retail'} src={`/assets/Rectangle-19.avif`}/></NavLink>
 
       </section>
     </div>

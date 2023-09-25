@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('/assets/Background.png')",
+        'hero': "url('/assets/Background.avif')",
         'automotive': "url('/assets/Rectangle 16.png')",
       },
       fontFamily:{
