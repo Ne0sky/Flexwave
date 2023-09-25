@@ -46,7 +46,8 @@ const Projects = () => {
       opacity:1,
       y:0,
       transition:{
-        delay:0.05*index
+        delay:0.075*index,
+        
       }
     })
   }
@@ -59,7 +60,7 @@ const Projects = () => {
       <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 py-8'>
         {
           data.map((data, index)=>{
-            return <motion.NavLink
+            return <motion.div
             variants={fadeinAnimation}
             initial="initial"
             whileInView="animate"
@@ -67,8 +68,10 @@ const Projects = () => {
             {once:true}
             }
             custom={index}
-
-            index={index} to={data.to}><ProjectCard title={data.title} src={data.src}/></motion.NavLink>
+            index={index}>
+            <NavLink
+           to={data.to}><ProjectCard title={data.title} src={data.src}/></NavLink>
+            </motion.div>
           })
         }
         

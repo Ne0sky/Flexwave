@@ -4,18 +4,40 @@ import {motion} from 'framer-motion';
 import Transition from '../Transition'
 const Services = () => {
 
+
+  const data=[
+    {
+      desc:"Ensure quality and consistency across national locations.",
+      title:"Multi-Site Branding",
+      src:"/assets/multi-site.png"
+    },
+    {
+      desc:"Providing you with high specification exterior and interior architectural signage solutions.",
+      title:"Architectural Branding",
+      src:"/assets/architectural.png"
+    },
+    {
+      desc:"Design, manufacture and installation of wayfinding signage.",
+      title:"Wayfinder Signage",
+      src:"/assets/directional.png"
+    },
+
+  ]
+
+
   const fadeinAnimation ={
     initial:{
       opacity:0,
       y:100
     },
-    animate:{
+    animate: (index)=>({
       opacity:1,
       y:0,
       transition:{
-        duration:1.5
+        delay:0.1*index,
+        
       }
-    }
+    })
   }
   return (
     <div
@@ -26,18 +48,30 @@ const Services = () => {
       <h2 className='text-center pt-2 font-semibold text-2xl md:text-4xl uppercase'>Our Services</h2>
       <p className='bg-rose-600 w-36 h-1  mx-auto '></p>
 
-      <motion.section 
-      variants={fadeinAnimation}
-      initial="initial"
-      whileInView="animate"
-      viewport={
-        {once:true}
-      }
-      className="services flex flex-col md:flex-row justify-around items-center md:items-start py-16 w-screen overflow-x-hidden lg:w-3/4 mx-auto">
-        <ServiceCard title='Multi-Site Branding' desc='Ensure quality and consistency across national locations.' src={`/assets/multi-site.png`}/>
-        <ServiceCard title='Architectural Branding' desc='Providing you with high specification exterior and interior architectural signage solutions' src={`/assets/architectural.png`}/>
-        <ServiceCard title='Wayfinder Signage' desc='Design, manufacture and installation of wayfinding signage.' src={`/assets/directional.png`}/>
-      </motion.section>
+      <section 
+      
+      className="services flex flex-col w-screen md:flex-row justify-center items-center md:items-start py-16  overflow-hidden lg:w-3/4 mx-auto">
+        {
+         data.map((data, index)=>{
+          return <motion.div
+          variants={fadeinAnimation}
+          initial="initial"
+          whileInView="animate"
+          viewport={
+          {once:true}
+          }
+          custom={index}
+          index={index}>
+          <ServiceCard
+         title={data.title}
+         desc={data.desc}
+         src={data.src}/>
+          </motion.div>
+        })
+        }
+        
+        
+      </section>
     </div>
   )
 }
