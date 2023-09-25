@@ -4,10 +4,10 @@ import MobileNav from './MobileNav';
 
 
 let Links=[
-  {name:'HOME', link:'/'},
-  {name:'PRODUCTS', link:'/products'},
-  {name:'PORFOLIO', link:'/portfolio/all'},
-  {name:'CONTACT', link:'/contact'},
+  {name:'Home', link:'/'},
+  {name:'Products', link:'/products'},
+  {name:'Portfolio', link:'/portfolio/all'},
+  {name:'Contact', link:'/contact'},
 ]
 
 const Navbar = () => {
@@ -23,7 +23,7 @@ const Navbar = () => {
   
 
   return (
-    <header className={`${header ? 'backdrop-filter backdrop-blur-xl bg-[#f9f9f9] py-6  shadow-xl' : 'bg-gradient-to-b from-slate-900 to-transparent py-4 '}   fixed top-0 left-0 px-8 z-50 w-screen  border-zinc-900 flex justify-between transition-all duration-300`}>
+    <header className={`${header ? 'backdrop-filter backdrop-blur-xl bg-[#f9f9f9] py-6  shadow-xl' : 'bg-gradient-to-b from-slate-900 to-transparent py-4 '} font-primary  fixed top-0 left-0 px-8 z-50 w-screen  border-zinc-900 flex justify-between transition-all duration-300`}>
 
       
       {/* logo */}
@@ -33,7 +33,7 @@ const Navbar = () => {
 
       {/* nav - initially hidden, shown on desktop */}
       
-      <ul className='hidden md:flex md:items-center pr-16  '>
+      <ul className='hidden md:flex md:items-center pr-16 uppercase '>
         {
           Links.map((link)=>(
             <li key={link.name} className={`${header ? 'text-black':'text-white'} text-xl px-4  h-[100%]  hover:scale-110 transition-all ease-in-out duration-300 `}><Link to={link.link}>{link.name}</Link></li>
