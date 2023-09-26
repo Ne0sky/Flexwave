@@ -11,7 +11,8 @@ const Testimonials = () => {
       opacity:1,
       y:0,
       transition:{
-        delay:0.1*index,
+        delay:2,
+        duration:1
         
       }
     })
@@ -25,6 +26,7 @@ const Testimonials = () => {
       variants={fadeinAnimation}
       initial="initial"
       whileInView="animate"
+      
       viewport={
       {once:true}
       }
