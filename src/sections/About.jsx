@@ -31,15 +31,15 @@ const About = () => {
       <div className='flex items-center py-4'>
 
       <div className='text-rose-600'>
-      <p className='text-6xl font-medium'><CountUp duration={3.5} end={20} enableScrollSpy />+</p>
-      <p className='text-xl'>years of business</p>
+      <p className='text-6xl font-medium'><CountUp duration={3.5} end={20} enableScrollSpy scrollSpyOnce />+</p>
+      <p className='text-2xl'>years of business</p>
       </div>
 
       <p className='bg-rose-600 w-0.5 h-16  mx-8'></p>
 
       <div className='text-rose-600'>
-      <p className='text-6xl font-medium'><CountUp duration={3.5} end={100} enableScrollSpy />+</p>
-      <p className='text-xl'>clients</p>
+      <p className='text-6xl font-medium'><CountUp duration={3.5} end={100} enableScrollSpy scrollSpyOnce />+</p>
+      <p className='text-2xl'>clients</p>
       </div>
 
       </div>
