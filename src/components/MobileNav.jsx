@@ -37,7 +37,7 @@ const MobileNav = () => {
        
   return (
     <nav className=' md:hidden font-primary'>
-        <div onClick={()=>setOpenMenu(true)} className={`${header ? 'text-black' : 'text-white'} text-3xl cursor-pointer`}>
+        <div onClick={()=>setOpenMenu(true)} className={` text-black text-3xl cursor-pointer`}>
            <CgMenuRight/>
         </div>
 

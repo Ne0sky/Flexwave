@@ -23,7 +23,7 @@ const Navbar = () => {
   
 
   return (
-    <header className={`backdrop-filter backdrop-blur-xl bg-[#ffffff] py-6 bg-gradient-to-r from-zinc-200 to-transparent shadow-xl font-primary  fixed top-0 left-0 px-8 z-50 w-screen  border-zinc-900 flex justify-between transition-all duration-300`}>
+    <header className={`backdrop-filter backdrop-blur-xl bg-[#ffffff] py-6 bg-gradient-to-r from-white to-transparent shadow-xl font-primary  fixed top-0 left-0 px-8 z-50 w-screen  border-zinc-900 flex justify-between transition-all duration-300`}>
 
       
       {/* logo */}
