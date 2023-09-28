@@ -9,7 +9,7 @@ const About = () => {
       <p className='font-secondary text-center pt-8 text-xl uppercase'>Who we are</p>
       <h2 className='text-center pt-2 font-semibold text-2xl md:text-4xl uppercase'>About Us</h2>
       <p className='bg-rose-600 w-36 h-1  mx-auto mb-16'></p>
-      <section className="About flex flex-col md:flex-row gap-16 justify-center  p-8 md:px-20 bg-gradient-to-b from-zinc-800 to-black ">
+      <section className="About flex flex-col md:flex-row  justify-around  p-8 md:px-20 bg-gradient-to-b from-zinc-800 to-black ">
       <div className='w-full md:w-1/3 pt-16'>
 
         <div className='font-secondary text-white'>
@@ -17,7 +17,7 @@ const About = () => {
           <p className='text-xl md:text-2xl' >Signage and Fabrication Solutions 
               Delivered with Peace of Mind.</p>
           <img className='py-8' src="/assets/map.png" alt="map image" />
-          <p className='font-primary md:w-3/4 md:text-xl'>A map displaying the reach of our satisfied clients, over 7 districts over 3 states of West Bengal, Assam and Tripura.</p>
+          <p className='font-primary md:w-3/4 md:text-xl'>A map displaying the reach of our satisfied clients, over <span className='font-semibold  text-2xl'>25</span> cities over <span className='font-semibold  text-2xl'>3</span> states of India, namely West Bengal, Assam and Tripura.</p>
         </div>
         
 
@@ -38,7 +38,7 @@ const About = () => {
       <p className='bg-rose-600 w-0.5 h-16  mx-8'></p>
 
       <div className='text-rose-600'>
-      <p className='text-6xl font-medium'><CountUp duration={3.5} end={100} enableScrollSpy scrollSpyOnce />+</p>
+      <p className='text-6xl font-medium'><CountUp duration={3.5} end={150} enableScrollSpy scrollSpyOnce />+</p>
       <p className='text-2xl'>clients</p>
       </div>
 
