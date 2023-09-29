@@ -27,7 +27,7 @@ const FAQ = () => {
         setOpen(index)
     }
   return (
-    <div className='grid place-items-center px-8'>
+    <div className='grid place-items-center px-8 py-8'>
         <p className='font-secondary text-center pt-8 text-xl uppercase'>COMMON QUESTIONS OUR CLIENTS ASK</p>
       <h2 className='text-center pt-2  font-semibold text-2xl md:text-4xl uppercase'>FAQs.</h2>
       <p className='bg-rose-600 w-44 h-1 mb-16 mx-auto '></p>
