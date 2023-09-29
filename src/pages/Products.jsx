@@ -23,7 +23,7 @@ const Products = () => {
         </div>
         
       </section>
-      <div className='flex md:w-[80%] items-center justify-center mx-auto bg-slate-300 rounded-b-xl'>
+      <div className='flex md:w-[80%] items-center justify-center pt-16 mx-auto bg-slate-300 rounded-b-xl'>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full items-center justify-center gap-8 p-8'>
   <div className='flex items-center justify-center'>
     <Product_Card title={"ACP & LED Signage"} desc={"Brilliant, Durable, Eye-catching Signage Solutions."} />
