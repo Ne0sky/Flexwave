@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react'
-import { BiLink, BiRightArrowCircle, BiLogoWhatsapp, BiMailSend, BiLocationPlus } from "react-icons/bi";
+import {  BiLogoWhatsapp, BiMailSend, BiLocationPlus } from "react-icons/bi";
+import ScrollToTop from '../Utils/ScrolltoTop';
 const Contact = () => {
   const [email, setEmail] = useState('')
   const [name, setName] = useState('')
   const [message, setMessage] = useState('')
   const [error, setError] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
-
+  
   
 
   const handleSubmit = async (e) => {
@@ -154,6 +155,7 @@ const Contact = () => {
       </div>
 
     </div>
+    <ScrollToTop/>
     </div>
   )
 }

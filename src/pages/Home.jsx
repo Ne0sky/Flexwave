@@ -9,7 +9,7 @@ import Projects from '../sections/Projects';
 import Clients from '../sections/Clients';
 import Testimonials from '../sections/Testimonials';
 import FAQ from '../sections/FAQ';
-
+import ScrolltoTop from "../Utils/ScrolltoTop"
 
 const Home = () => {
   return (
@@ -21,6 +21,7 @@ const Home = () => {
     <Clients/>
     <Testimonials/>
     <FAQ/>
+    <ScrolltoTop/>
     </div>
   );
 };

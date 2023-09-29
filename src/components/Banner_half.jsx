@@ -2,7 +2,7 @@ import React from 'react'
 import Contactbtn from '../components/Contactbtn'
 const Banner_half = ({title}) => {
   return (
-    <section className="banner   w-full h-[60vh] bg-automotive flex  items-center bg-no-repeat bg-cover bg-center bg-fixed relative ">
+    <section className="banner mt-20   w-full h-[40vh] bg-automotive flex  items-center bg-no-repeat bg-cover bg-center bg-fixed relative ">
         <div className="background-gradient absolute top-0 left-0 bg-gradient-to-r from-slate-900 to-[#0000003f] z-10 w-full h-full "></div>
         
         <div className="text-content h-full justify-center xl:justify-around w-full items-start px-8 xl:items-center flex flex-col xl:flex-row  z-20  ">
