@@ -9,17 +9,17 @@ const Services = () => {
     {
       desc:"Ensure quality and consistency across national locations.",
       title:"Multi-Site Branding",
-      src:"/assets/multi-site.png"
+      src:"/assets/multi-site.jpeg"
     },
     {
       desc:"Providing you with high specification exterior and interior architectural signage solutions.",
-      title:"Architectural Branding",
-      src:"/assets/architectural.png"
+      title:"Inshop Branding Branding",
+      src:"/assets/inshop.jpg"
     },
     {
       desc:"Design, manufacture and installation of wayfinding signage.",
       title:"Wayfinder Signage",
-      src:"/assets/directional.png"
+      src:"/assets/directional.jpg"
     },
 
   ]

@@ -38,7 +38,7 @@ const About = () => {
       <p className='bg-rose-600 w-0.5 h-16  mx-8'></p>
 
       <div className='text-rose-600'>
-      <p className='text-6xl font-medium'><CountUp duration={3.5} end={150} enableScrollSpy scrollSpyOnce />+</p>
+      <p className='text-6xl font-medium'><CountUp duration={3.5} end={50} enableScrollSpy scrollSpyOnce />+</p>
       <p className='text-2xl'>clients</p>
       </div>
 

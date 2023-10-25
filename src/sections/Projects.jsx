@@ -8,12 +8,12 @@ const Projects = () => {
     {
       to:"/portfolio/all",
       title:"All projects",
-      src:"/assets/Rectangle-14.avif"
+      src:"/assets/Rectangle-14.jpg"
     },
     {
       to:"/portfolio/hospitality",
       title:"Hospitality",
-      src:"/assets/Rectangle-15.avif"
+      src:"/assets/Rectangle-15.jpg"
     },
     {
       to:"/portfolio/automotive",
@@ -22,18 +22,18 @@ const Projects = () => {
     },
     {
       to:"/portfolio/banner",
-      title:"Banner & Hoarding",
-      src:"/assets/Rectangle-17.avif"
+      title:"Banners",
+      src:"/assets/Rectangle-17.jpg"
     },
     {
       to:"/portfolio/healthcare",
       title:"Healthcare",
-      src:"/assets/Rectangle-18.avif"
+      src:"/assets/Rectangle-18.jpg"
     },
     {
       to:"/portfolio/retail",
       title:"Retail",
-      src:"/assets/Rectangle-19.avif"
+      src:"/assets/Rectangle-19.jpg"
     },
   ]
 
@@ -61,6 +61,7 @@ const Projects = () => {
         {
           data.map((data, index)=>{
             return <motion.div
+            className='h-[450px]'
             variants={fadeinAnimation}
             initial="initial"
             whileInView="animate"
@@ -70,6 +71,7 @@ const Projects = () => {
             custom={index}
             index={index}>
             <NavLink
+            className={""}
            to={data.to}><ProjectCard title={data.title} src={data.src}/></NavLink>
             </motion.div>
           })
