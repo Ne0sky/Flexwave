@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Navbar_portfolio from '../components/Navbar_portfolio';
 import Banner_half from '../components/Banner_half';
-import AutomotiveSrc from '../Data/Automotive';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import ScrollToTop from '../Utils/ScrolltoTop';
 import HospitalityData from '../Data/HospitalityData';
 const Portfolio_Hospitality = () => {
@@ -17,7 +18,13 @@ const Portfolio_Hospitality = () => {
           <div className='w-full columns-1 md:columns-2 lg:columns-3 space-y-5 gap-5 p-5 '>
           {HospitalityData.map((data, index)=>{
               return  <div key={index}  className='overflow-hidden rounded-xl p-8  shadow-xl shadow-zinc-400'>
-              <img onClick={()=>setFile(data)} key={index} className='rounded-xl overflow-hidden object-cover w-full cursor-pointer h-auto shadow-lg' src={data.path} alt="Porfolio_img" />
+              <LazyLoadImage 
+              onClick={()=>setFile(data)} 
+              key={index} 
+              className='rounded-xl overflow-hidden object-cover w-full cursor-pointer h-auto shadow-lg' 
+              src={data.path} 
+              effect="blur"
+              alt="Porfolio_img" />
               <div className='flex w-full justify-between pt-4'>
               <div>
               <p className='text-xl font-bold'>{data.title}</p>
