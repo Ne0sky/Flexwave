@@ -64,6 +64,11 @@ const AutomotiveSrc = [
     desc:'ACP Signage',
     location:'Kharagpur'
     },
+    {path:'/assets/Automotive/14.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
     
 ]
 

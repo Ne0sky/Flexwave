@@ -6,8 +6,12 @@ import Transition from '../Transition'
 const Banner = () => {
   return (
     <div>
-        <section className="banner w-full h-[100vh] bg-hero flex  items-center bg-no-repeat bg-cover bg-center bg-fixed relative ">
-        <div className="background-gradient absolute top-0 left-0 bg-gradient-to-r from-slate-900 to-transparent z-10 w-full h-full "></div>
+        <section className="banner w-full h-[100vh] bg-gradient-to-b from-slate-900 to-zinc-950 flex  items-center bg-no-repeat bg-cover bg-center bg-fixed relative ">
+        
+        <div>
+          <img src="assets/background-main.jpeg" alt="aegaeg" />
+        </div>
+      
         
         <div className="text-content h-full justify-center flex flex-col  z-20 pl-6 ">
           <div className='flex items-center'>
@@ -27,6 +31,7 @@ const Banner = () => {
           </div>
         </div>
         <div className='text-white text-xl md:text-2xl z-20 absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-60 flex flex-col items-center justify-center'><p>Scroll Down</p> <HiChevronDoubleDown className='pt-4 text-4xl md:text-6xl text-zinc-300 animate-bounce'/></div>
+        
       </section>
     </div>
   )

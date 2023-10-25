@@ -1,70 +1,76 @@
 const HospitalityData = [
-    {path:'/assets/Automotive/1.jpeg',
+    {path:'/assets/Hospitality/1.jpg',
     title:'Sonalike Tructors',
     desc:'ACP Signage',
     location:'Kharagpur'
     },
-    {path:'/assets/Automotive/2.jpeg',
+    {path:'/assets/Hospitality/2.jpg',
     title:'Sonalike Tructors',
     desc:'ACP Signage',
     location:'Kharagpur'
     },
-    {path:'/assets/Automotive/3.jpg',
+    {path:'/assets/Hospitality/3.jpg',
     title:'Sonalike Tructors',
     desc:'ACP Signage',
     location:'Kharagpur'
     },
-    {path:'/assets/Automotive/4.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
-    },
-    {path:'/assets/Automotive/5.jpeg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
-    },
-    {path:'/assets/Automotive/6.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
-    },
-    {path:'/assets/Automotive/7.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
-    },
-    {path:'/assets/Automotive/8.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
-    },
-    {path:'/assets/Automotive/9.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Bishnupur'
-    },
-    {path:'/assets/Automotive/10.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
-    },
-    {path:'/assets/Automotive/11.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
-    },
-    {path:'/assets/Automotive/12.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
-    },
-    {path:'/assets/Automotive/13.jpg',
+    {path:'/assets/Hospitality/4.jpg',
     title:'Sonalike Tructors',
     desc:'ACP Signage',
     location:'Kharagpur'
     },
     
+    {path:'/assets/Hospitality/7.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
+    {path:'/assets/Hospitality/8.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
+    {path:'/assets/Hospitality/9.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
+    {path:'/assets/Hospitality/10.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
+    {path:'/assets/Hospitality/11.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
+    {path:'/assets/Hospitality/12.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
+    {path:'/assets/Hospitality/13.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
+    {path:'/assets/Hospitality/14.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
+    {path:'/assets/Hospitality/15.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
+    {path:'/assets/Hospitality/16.jpg',
+    title:'Sonalike Tructors',
+    desc:'ACP Signage',
+    location:'Kharagpur'
+    },
+   
 ]
 
 export default HospitalityData

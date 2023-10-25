@@ -75,6 +75,11 @@ const HealthcareData = [
     desc:'One-way vision door',
     location:'Newtown, Kolkata'
     },
+    {path:'/assets/Healthcare/16.jpg',
+    title:'Atas Healthcare',
+    desc:'One-way vision door',
+    location:'Newtown, Kolkata'
+    },
     
     
 ]

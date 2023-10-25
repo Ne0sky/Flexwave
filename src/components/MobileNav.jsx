@@ -8,7 +8,7 @@ import {motion} from 'framer-motion';
 let Links=[
     {name:'HOME', link:'/'},
     {name:'PRODUCTS', link:'/products'},
-    {name:'PORFOLIO', link:'/portfolio/all'},
+    {name:'PORFOLIO', link:'/portfolio/automotive'},
     {name:'CONTACT', link:'/contact'},
   ]
 
