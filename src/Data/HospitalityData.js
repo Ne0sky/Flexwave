@@ -14,7 +14,7 @@ const HospitalityData = [
     desc:'ACP Signage',
     location:'Kharagpur'
     },
-    {path:'/assets/Automotive/4.jpeg',
+    {path:'/assets/Automotive/4.jpg',
     title:'Sonalike Tructors',
     desc:'ACP Signage',
     location:'Kharagpur'
