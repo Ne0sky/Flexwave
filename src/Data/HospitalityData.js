@@ -70,6 +70,21 @@ const HospitalityData = [
     desc:'one-way vision door',
     location:'Salt Lake, Kolkata'
     },
+    {path:'/assets/Hospitality/17.jpg',
+    title:'Cafe@ Drop of a Hat',
+    desc:'ACP Signage',
+    location:'Kolkata'
+    },
+    {path:'/assets/Hospitality/18.jpg',
+    title:'Econest Hotel',
+    desc:'ACP Signage',
+    location:'Rampurhat'
+    },
+    {path:'/assets/Hospitality/19.jpg',
+    title:'Dada Bhai Biryani',
+    desc:'ACP Signage',
+    location:'Dum Dum, Kolkata'
+    },
    
 ]
 

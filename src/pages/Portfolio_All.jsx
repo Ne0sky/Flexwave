@@ -7,6 +7,7 @@ import HealthcareData from '../Data/HealthcareData';
 import ScrollToTop from '../Utils/ScrolltoTop';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import { BiLink, BiRightArrowCircle, BiLogoWhatsapp, BiMailSend, BiLocationPlus } from "react-icons/bi";
 const Portfolio_All = () => {
 
 
@@ -34,7 +35,7 @@ const Portfolio_All = () => {
               </div>
 
               <div>
-              <p className='font-semibold '>{data.location}</p>
+              <p className='font-semibold flex items-center '><BiLocationPlus className='mx-2'/>{data.location}</p>
               
               </div>
               </div>
@@ -58,7 +59,7 @@ const Portfolio_All = () => {
               </div>
 
               <div>
-              <p className='font-semibold '>{data.location}</p>
+              <p className='font-semibold flex items-center '><BiLocationPlus className='mx-2'/>{data.location}</p>
               
               </div>
               </div>
@@ -82,7 +83,7 @@ const Portfolio_All = () => {
               </div>
 
               <div>
-              <p className='font-semibold '>{data.location}</p>
+              <p className='font-semibold flex items-center '><BiLocationPlus className='mx-2'/>{data.location}</p>
               
               </div>
               </div>
