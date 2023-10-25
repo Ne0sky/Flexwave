@@ -21,8 +21,8 @@ const Projects = () => {
       src:"/assets/Rectangle-16.avif"
     },
     {
-      to:"/portfolio/architectural",
-      title:"Architectural",
+      to:"/portfolio/banner",
+      title:"Banner & Hoarding",
       src:"/assets/Rectangle-17.avif"
     },
     {

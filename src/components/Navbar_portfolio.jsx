@@ -11,7 +11,7 @@ const Navbar_portfolio = () => {
         </div>
         <div>
         <NavLink className='rounded-3xl lg:text-xl hover:bg-zinc-900 hover:text-white transition-all duration-300 border border-black px-2 lg:px-6 py-2 text-center mx-1 lg:mx-4'  to='/portfolio/healthcare' >Healthcare</NavLink>
-        <NavLink className='rounded-3xl lg:text-xl hover:bg-zinc-900 hover:text-white transition-all duration-300 border border-black px-2 lg:px-6 py-2 text-center mx-1 lg:mx-4'  to='/portfolio/architectural' >Architectural</NavLink>
+        <NavLink className='rounded-3xl lg:text-xl hover:bg-zinc-900 hover:text-white transition-all duration-300 border border-black px-2 lg:px-6 py-2 text-center mx-1 lg:mx-4'  to='/portfolio/banner' >Banner & Hoarding</NavLink>
         <NavLink className='rounded-3xl lg:text-xl hover:bg-zinc-900 hover:text-white transition-all duration-300 border border-black px-2 lg:px-6 py-2 text-center mx-1 lg:mx-4'  to='/portfolio/automotive' >Automotive</NavLink>
         </div>
        
