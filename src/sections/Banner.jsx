@@ -18,12 +18,12 @@ const Banner = () => {
     <div>
         <section className="banner bg-zinc-100 mt-16 lg:mt-0 w-full h-[100vh] bg-gradient-to-b  flex flex-col lg:flex-row items-center bg-no-repeat bg-cover bg-center bg-fixed relative ">
         
-        <div className='w-3/4 lg:w-1/2 flex items-center justify-center'>
+        <div className='w-full lg:w-1/2 flex items-center justify-center'>
           <img className='card w-[80%]' src="assets/background-main.png" alt="aegaeg" />
         </div>
       
         
-        <div className="text-content h-full justify-center flex flex-col  z-20 pl-6 ">
+        <div className="text-content h-full justify-center flex flex-col  z-20  ">
           <div className='flex items-center'>
           <div className="h-[4rem] w-[0.2rem] md:h-[4rem] xl:h-[8rem] md:w-[0.5rem] bg-rose-600 mr-4 "></div>
           <div
@@ -43,7 +43,7 @@ const Banner = () => {
             <Contactbtn_bl/>
           </div>
         </div>
-        <div className=' text-xl md:text-2xl z-20 absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-60 flex flex-col items-center justify-center'><p>Scroll Down</p> <HiChevronDoubleDown className='pt-4 text-4xl md:text-6xl text-zinc-900 animate-bounce'/></div>
+        <div className='hidden  text-xl md:text-2xl z-20 absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-60 lg:flex flex-col items-center justify-center'><p>Scroll Down</p> <HiChevronDoubleDown className='pt-4 text-4xl md:text-6xl text-zinc-900 animate-bounce'/></div>
         
       </section>
     </div>
