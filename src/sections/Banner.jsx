@@ -4,7 +4,7 @@ import { HiChevronDoubleDown } from 'react-icons/hi';
 import VanillaTilt from 'vanilla-tilt';
 import { useEffect } from 'react';
 import Contactbtn_bl from '../components/Contactbtn_bl';
-
+import { BiLink, BiRightArrowCircle, BiLogoWhatsapp, BiMailSend, BiLocationPlus } from "react-icons/bi";
 const Banner = () => {
   useEffect(()=>{
     VanillaTilt.init(document.querySelectorAll(".card"),{

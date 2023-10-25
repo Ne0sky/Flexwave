@@ -5,6 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import ScrollToTop from '../Utils/ScrolltoTop';
 import HospitalityData from '../Data/HospitalityData';
+import { BiLink, BiRightArrowCircle, BiLogoWhatsapp, BiMailSend, BiLocationPlus } from "react-icons/bi";
 const Portfolio_Hospitality = () => {
 
 
@@ -32,7 +33,7 @@ const Portfolio_Hospitality = () => {
               </div>
 
               <div>
-              <p className='font-semibold '>{data.location}</p>
+              <p className='font-semibold flex items-center '><BiLocationPlus className='mx-2'/>{data.location}</p>
               
               </div>
               </div>

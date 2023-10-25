@@ -1,5 +1,6 @@
 import React from 'react';
 import { BiLink, BiRightArrowCircle, BiLogoWhatsapp, BiMailSend, BiLocationPlus } from "react-icons/bi";
+import { Link, NavLink } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="bg-zinc-900 text-white py-24 mt-8 flex flex-col font-primary md:flex-row relative items-start justify-center gap-16 px-8">
@@ -11,10 +12,10 @@ const Footer = () => {
       <div className='flex flex-col justify-center items-start'>
         <h3 className='font-bold text-xl text-rose-600 pb-4 flex items-center gap-2 w-full uppercase '>Useful Links <BiLink/></h3>
         <ul>
-          <li><a className='flex items-center py-2 gap-2' href="/"><BiRightArrowCircle color='#FF2741' size={20}/>Home</a></li>
-          <li><a  className='flex items-center py-2 gap-2' href="/"><BiRightArrowCircle color='#FF2741' size={20}/>Products</a></li>
-          <li><a  className='flex items-center py-2 gap-2'href="/"><BiRightArrowCircle color='#FF2741' size={20}/>Portfolio</a></li>
-          <li><a  className='flex items-center py-2 gap-2'href="/"><BiRightArrowCircle color='#FF2741' size={20}/>Contact</a></li>
+          <li><Link className='flex items-center py-2 gap-2' to="/"><BiRightArrowCircle color='#FF2741' size={20}/>Home</Link></li>
+          {/* <li><a  className='flex items-center py-2 gap-2' href="/"><BiRightArrowCircle color='#FF2741' size={20}/>Products</a></li> */}
+          <li><Link  className='flex items-center py-2 gap-2'to="/portfolio/all"><BiRightArrowCircle color='#FF2741' size={20}/>Portfolio</Link></li>
+          <li><Link  className='flex items-center py-2 gap-2'to="/Contact"><BiRightArrowCircle color='#FF2741' size={20}/>Contact</Link></li>
         </ul>
       </div>
       
@@ -27,7 +28,7 @@ const Footer = () => {
       </div>
       
       <div className='flex flex-col justify-center items-start'>
-        <h3 className='font-bold text-xl text-rose-600 flex items-center  gap-2 w-full '>VISIT<BiLink/></h3>
+        <h3 className='font-bold text-xl text-rose-600 flex items-center  gap-2 w-full '>VISIT<BiLocationPlus color='#FF2741' size={20}/></h3>
         
           <p className='flex items-center gap-2 py-2' ><BiLocationPlus color='#FF2741' size={20}/> 100/2 Bhagabati
           Park, Kolkata 700074</p>

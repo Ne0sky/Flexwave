@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 let Links=[
     {name:'HOME', link:'/'},
-    {name:'PRODUCTS', link:'/products'},
+    // {name:'PRODUCTS', link:'/products'},
     {name:'PORFOLIO', link:'/portfolio/automotive'},
     {name:'CONTACT', link:'/contact'},
   ]

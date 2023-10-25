@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Navbar_portfolio from '../components/Navbar_portfolio';
 import Banner_half from '../components/Banner_half';
-
+import { BiLink, BiRightArrowCircle, BiLogoWhatsapp, BiMailSend, BiLocationPlus } from "react-icons/bi";
 import ScrollToTop from '../Utils/ScrolltoTop';
 import RetailData from '../Data/RetailData';
 const Portfolio_Retail = () => {
@@ -25,7 +25,7 @@ const Portfolio_Retail = () => {
               </div>
 
               <div>
-              <p className='font-semibold '>{data.location}</p>
+              <p className='font-semibold flex items-center '><BiLocationPlus className='mx-2'/>{data.location}</p>
               
               </div>
               </div>

@@ -5,6 +5,7 @@ import AutomotiveSrc from '../Data/Automotive';
 import ScrollToTop from '../Utils/ScrolltoTop';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import {  BiLocationPlus } from "react-icons/bi";
 const Portfolio_Automotive = () => {
 
 
@@ -32,7 +33,8 @@ const Portfolio_Automotive = () => {
               </div>
 
               <div>
-              <p className='font-semibold '>{data.location}</p>
+                
+              <p className='font-semibold flex items-center '><BiLocationPlus className='mx-2'/>{data.location}</p>
               
               </div>
               </div>

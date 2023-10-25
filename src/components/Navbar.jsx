@@ -5,7 +5,7 @@ import MobileNav from './MobileNav';
 
 let Links=[
   {name:'Home', link:'/'},
-  {name:'Products', link:'/products'},
+  // {name:'Products', link:'/products'},
   {name:'Portfolio', link:'/portfolio/automotive'},
   {name:'Contact', link:'/contact'},
 ]

@@ -69,8 +69,8 @@ const Contact = () => {
           <p  className='flex items-center gap-2 py-2' ><BiMailSend color='#FF2741' size={20}/>flexwave17@gmail.com</p>
           <p className='flex items-center gap-2 py-2 mb-8' ><BiLocationPlus color='#FF2741' size={20}/> 100/2 Bhagabati
           Park, Kolkata 700074</p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d920.7473866332369!2d88.41325451039154!3d22.616865538482752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89e1c98bb756d%3A0x70bd3547466235!2sBhagabati%20Park%20Rd%2C%20Vivekananda%20Pally%2C%20Bapuji%20Colony%2C%20Satgachi%2C%20South%20Dumdum%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1695803310595!5m2!1sen!2sin" className='w-[300px] md:w-[400px] h-[400px] border  rounded-xl' allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-        
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.9219329306734!2d88.41439177594881!3d22.619390231252506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89e19424a2d4b%3A0x43f65ce001a94d83!2s132%2C%20Nagendra%20Nath%20Rd%2C%20Notun%20Pally%2C%20Satgachi%2C%20Dum%20Dum%2C%20West%20Bengal%20700028!5e0!3m2!1sen!2sin!4v1698258272520!5m2!1sen!2sin" className='w-[300px] md:w-[400px] h-[400px] border  rounded-xl' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
       </div>
 

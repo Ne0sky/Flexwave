@@ -1,49 +1,71 @@
 const RetailData = [
-    {path:'/assets/Retail/1.jpg',
-    title:'ID & BG Hospital',
-    desc:'Directional ACP Signage',
-    location:'Beliaghata, Kolkata'
+    {path:'/assets/Retail/15.jpg',
+    title:'Infinity',
+    desc:'ACP Signage (3D Letter)',
+    location:'Teghoria, Kolkata'
     },
-    {path:'/assets/Retail/2.jpg',
-    title:'ID & BG Hospital',
-    desc:'Directional ACP Signage',
-    location:'Beliaghata, Kolkata'
-    },
+    
     {path:'/assets/Retail/3.jpg',
-    title:'ID & BG Hospital',
-    desc:'Directional ACP Signage',
-    location:'Beliaghata, Kolkata'
+    title:'Bloom Caterers',
+    desc:'Backlit Board',
+    location:'Dum Dum, Kolkata'
     },
     {path:'/assets/Retail/4.jpg',
-    title:'ID & BG Hospital',
-    desc:'Directional ACP Signage',
-    location:'Beliaghata, Kolkata'
+    title:'Reba Green Tech',
+    desc:'Lollipop Signage',
+    location:'Kalyani'
     },
     {path:'/assets/Retail/5.jpg',
-    title:'ID & BG Hospital',
-    desc:'Directional ACP Signage',
-    location:'Beliaghata, Kolkata'
+    title:'Stihl',
+    desc:'Lollipop Signage',
+    location:'Kalyani'
     },
     {path:'/assets/Retail/6.jpg',
-    title:'ID & BG Hospital',
-    desc:'Directional ACP Signage',
-    location:'Beliaghata, Kolkata'
+    title:'Reba Green Tech',
+    desc:'Lollipop Signage',
+    location:'Kalyani'
     },
     {path:'/assets/Retail/7.jpg',
-    title:'ID & BG Hospital',
-    desc:'Directional ACP Signage',
-    location:'Beliaghata, Kolkata'
+    title:`Dalia's Ladies Salon`,
+    desc:'ACP Signage ( Liquid Acraylic Letter )',
+    location:'Amarpally, Kolkata'
     },
     {path:'/assets/Retail/8.jpg',
-    title:'ID & BG Hospital',
-    desc:'Directional ACP Signage',
-    location:'Beliaghata, Kolkata'
+    title:`Dalia's Ladies Salon`,
+    desc:'ACP Signage ( Liquid Acraylic Letter )',
+    location:'Amarpally, Kolkata'
     },
     {path:'/assets/Retail/9.jpg',
-    title:'ID & BG Hospital',
-    desc:'Directional ACP Signage',
-    location:'Beliaghata, Kolkata'
+    title:'Varosha India Nidhi ltd',
+    desc:'Lollipop Signage',
+    location:' Kolkata'
     },
+    {path:'/assets/Retail/10.jpg',
+    title:'Mundra Jewellery',
+    desc:' ACP Signage',
+    location:'Gangarampur'
+    },
+    {path:'/assets/Retail/11.jpg',
+    title:'Kallisto',
+    desc:'Backlit Board',
+    location:'Bhawanipur'
+    },
+    {path:'/assets/Retail/12.jpg',
+    title:'Floweraura',
+    desc:'Acraylic Letter',
+    location:'Rabindra Sadan'
+    },
+    {path:'/assets/Retail/13.jpg',
+    title:'Floweraura',
+    desc:' ACP Signage',
+    location:'Rabindra Sadan'
+    },
+    {path:'/assets/Retail/14.jpg',
+    title:'Floweraura',
+    desc:'Acraylic Letter',
+    location:'Rabindra Sadan'
+    },
+    
     
    
 ]

@@ -1,74 +1,74 @@
 const HospitalityData = [
     {path:'/assets/Hospitality/1.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Celesta',
+    desc:'3D Acraylic Letter',
+    location:'VIP Road, Kolkata'
     },
     {path:'/assets/Hospitality/2.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Celesta',
+    desc:'3D Acraylic Letter',
+    location:'VIP Road, Kolkata'
     },
     {path:'/assets/Hospitality/3.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Bhawani Group',
+    desc:'3D Acraylic Letter',
+    location:'Salt Lake, Kolkata'
     },
     {path:'/assets/Hospitality/4.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Ethnotel',
+    desc:'Pylon',
+    location:'Airport, Kolkata'
     },
     
     {path:'/assets/Hospitality/7.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Ethnotel',
+    desc:'3D Acraylic Letter',
+    location:'Airport, Kolkata'
     },
     {path:'/assets/Hospitality/8.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Meridian Splendora',
+    desc:'Acraylic Letter',
+    location:'Dum Dum, Kolkata'
     },
     {path:'/assets/Hospitality/9.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Meridian Splendora',
+    desc:'Acraylic Letter',
+    location:'Dum Dum, Kolkata'
     },
     {path:'/assets/Hospitality/10.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Regeant Restaurant',
+    desc:'LED Screen Signage',
+    location:'Rodkol, Kolkata'
     },
     {path:'/assets/Hospitality/11.jpg',
-    title:'Sonalike Tructors',
+    title:'Moon Bar',
     desc:'ACP Signage',
-    location:'Kharagpur'
+    location:'Rodkol, Kolkata'
     },
     {path:'/assets/Hospitality/12.jpg',
-    title:'Sonalike Tructors',
+    title:'Moon Bar',
     desc:'ACP Signage',
-    location:'Kharagpur'
+    location:'Rodkol, Kolkata'
     },
     {path:'/assets/Hospitality/13.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Regeant Restaurant',
+    desc:'Non-lit Flex',
+    location:'Rodkol, Kolkata'
     },
     {path:'/assets/Hospitality/14.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Regeant Restaurant',
+    desc:'Vinyl Makeover',
+    location:'Rodkol, Kolkata'
     },
     {path:'/assets/Hospitality/15.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Bhawani Group',
+    desc:'3D Letter',
+    location:'Salt Lake, Kolkata'
     },
     {path:'/assets/Hospitality/16.jpg',
-    title:'Sonalike Tructors',
-    desc:'ACP Signage',
-    location:'Kharagpur'
+    title:'Bhawani Group',
+    desc:'one-way vision door',
+    location:'Salt Lake, Kolkata'
     },
    
 ]
