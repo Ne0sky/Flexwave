@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className='py-8'>
         {/* About Section */}
-      <p className='font-secondary text-center pt-8 text-xl uppercase'>Who we are</p>
+      <p className='font-secondary text-center pt-6 text-xl uppercase'>Who we are</p>
       <h2 className='text-center pt-2 font-semibold text-2xl md:text-4xl uppercase'>About Us</h2>
       <p className='bg-rose-600 w-36 h-1  mx-auto mb-16'></p>
       <section className="About flex flex-col md:flex-row  justify-around  p-8 md:px-20 bg-gradient-to-b from-zinc-800 to-black ">

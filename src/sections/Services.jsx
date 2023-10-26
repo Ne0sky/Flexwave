@@ -12,7 +12,7 @@ const Services = () => {
       src:"/assets/multi-site.jpeg"
     },
     {
-      desc:"Providing you with high specification exterior and interior architectural signage solutions.",
+      desc:"Providing you with high specification interior signage solutions.",
       title:"Inshop Branding Branding",
       src:"/assets/inshop.jpg"
     },
