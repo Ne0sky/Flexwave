@@ -28,7 +28,9 @@ const Navbar = () => {
       
       {/* logo */}
       <h1 className={` text-black text-xl  md:text-2xl lg:text-3xl font-primary font-bold pl-6`}>
-        <a href='/'>Flexwave.</a>
+        <a href='/'>
+          <img className='w-[150px] h-auto' src="assets/Logo.jpg" alt="logo" />
+        </a>
       </h1>
 
       {/* nav - initially hidden, shown on desktop */}
