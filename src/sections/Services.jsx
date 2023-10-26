@@ -13,7 +13,7 @@ const Services = () => {
     },
     {
       desc:"Providing you with high specification interior signage solutions.",
-      title:"Inshop Branding Branding",
+      title:"Inshop Branding ",
       src:"/assets/inshop.jpg"
     },
     {
