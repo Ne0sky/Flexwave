@@ -16,7 +16,7 @@ const Banner = () => {
   })
   return (
     <div>
-        <section className="banner  bg-gradient from-zinc-300 to-white pt-36  w-full py-8 bg-gradient-to-b  flex flex-col-reverse gap-8 lg:flex-row items-center bg-no-repeat bg-cover bg-center bg-fixed relative ">
+        <section className="banner  bg-gradient from-zinc-300 to-white pt-36 lg:pt-24  w-full py-8 bg-gradient-to-b  flex flex-col-reverse gap-8 lg:flex-row items-center bg-no-repeat bg-cover bg-center bg-fixed relative ">
         
         <div className='flex  py-4  h-full lg:w-1/2 md:flex items-center justify-center'>
           <img className='card w-[90%]' src="assets/background-main.png" alt="aegaeg" />
