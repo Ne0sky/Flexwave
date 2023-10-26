@@ -18,7 +18,7 @@ const Projects = () => {
     {
       to:"/portfolio/automotive",
       title:"Automotive",
-      src:"/assets/Rectangle-16.avif"
+      src:"/assets/Rectangle-16.jpg"
     },
     {
       to:"/portfolio/banner",
